@@ -3,18 +3,19 @@ import ReactDOM from "react-dom";
 
 //CSS styling
 import "./styles.css";
-import Header from "./components/to_do_header.js";
-import ToDoContainer from "./containers/to_do_container.js";
+
+//import components
+
+import TodoContainer from "./containers/todo-container.js"
 
 class App extends React.Component {
     render() {
         return(
-            <view>
-                <Header />
-                <ToDoContainer />
-            </view>
+        <view>
+            <TodoContainer />
+        </view>
             
-        )
+        );
     }
 }
 
